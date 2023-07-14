@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,17 +9,33 @@ namespace MoodAnalyserProblem
 {
     public class MoodAnalyser
     {
-        public string AnalyseMood(string massage)
+        string message;
+        public MoodAnalyser(string message)
         {
-            //my name is sad 
-            if (massage.Contains("Sad"))
+            this.message = message;
+        }
+        public string AnalyseMood()
+        {
+            try
             {
-                return "Sad";
+                //my name is sad 
+                if (message.Contains("Sad"))
+                {
+                    return "Sad";
+                }
+                else
+                {
+                    return "Happy";
+                }
             }
-            else
+
+            catch (NullReferenceException)
             {
                 return "Happy";
             }
         }
     }
 }
+
+
+

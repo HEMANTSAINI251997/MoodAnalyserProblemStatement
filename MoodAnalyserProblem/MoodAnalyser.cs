@@ -7,10 +7,14 @@ using System.Threading.Tasks;
 
 namespace MoodAnalyzer_Demo
 {
-  
     public class MoodAnalyse
     {
-        public string AnalyseMood(string message)
+        string message;
+        public MoodAnalyse(string message)
+        {
+            this.message = message;
+        }
+        public string AnalyseMood()
         {
             //My name is Sad
             if (message.Contains("Sad"))

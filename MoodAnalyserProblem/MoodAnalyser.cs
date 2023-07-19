@@ -1,17 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoodAnalyserProblem
+namespace MoodAnalyzer_Demo
 {
-    public class MoodAnalyser
+  
+    public class MoodAnalyse
     {
-        public string AnalyseMood(string massage)
+        public string AnalyseMood(string message)
         {
-            //my name is sad 
-            if (massage.Contains("Sad"))
+            //My name is Sad
+            if (message.Contains("Sad"))
             {
                 return "Sad";
             }

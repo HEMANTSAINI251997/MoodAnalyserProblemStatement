@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodAnalyserProblem", "Mood
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodAnalyser_Tests", "..\MoodAnalyser_Tests\MoodAnalyser_Tests.csproj", "{A1B8DC6C-8ABC-4F94-80D7-9E4DCD072ACC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodAnalyser_Test", "..\MoodAnalyser_Test\MoodAnalyser_Test.csproj", "{F8D986BB-CEB7-47B3-815E-659FD136B2C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A1B8DC6C-8ABC-4F94-80D7-9E4DCD072ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1B8DC6C-8ABC-4F94-80D7-9E4DCD072ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1B8DC6C-8ABC-4F94-80D7-9E4DCD072ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D986BB-CEB7-47B3-815E-659FD136B2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D986BB-CEB7-47B3-815E-659FD136B2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D986BB-CEB7-47B3-815E-659FD136B2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D986BB-CEB7-47B3-815E-659FD136B2C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

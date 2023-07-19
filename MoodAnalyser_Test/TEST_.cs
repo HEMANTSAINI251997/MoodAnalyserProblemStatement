@@ -1,5 +1,4 @@
-﻿using MoodAnalyserProblem;
-using MoodAnalyzer_Demo;
+﻿using MoodAnalyzer_Demo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +16,14 @@ namespace MoodAnalyser_Test
             string result = moodAnalyse.AnalyseMood("I am in Sad Mood");
             Assert.AreEqual(result, "Sad");
         }
+        [Test]
+        public void GivenMood_ShouldReturnHappy()
+        {
+
+            string result = moodAnalyse.AnalyseMood("I am in Any Mood");
+            Assert.AreEqual(result, "Happy");
+        }
+
 
 
     }
